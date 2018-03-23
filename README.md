@@ -13,7 +13,7 @@ data(){
     show: Boolean
   }
 }
-###获取用户选择结果 1是 0否 */
+/* 获取用户选择结果 1是 0否 */
 select (status) {
   this.show = false  // 关闭弹窗
 }
