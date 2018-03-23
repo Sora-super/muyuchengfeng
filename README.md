@@ -4,7 +4,7 @@ muyuchengfeng
 
 
 ## popup
----
+``` shell
 <Popup :popup-msg='msg' :show='show' @select="select"></Popup>
 
 data(){
@@ -18,4 +18,4 @@ select (status) {
   this.show = false  // 关闭弹窗
 }
 
----
+```
